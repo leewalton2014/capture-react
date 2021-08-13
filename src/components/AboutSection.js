@@ -1,37 +1,52 @@
 import React from "react";
 import home1 from "../img/home1.png";
-
+//styled
+import { About, Description, Image, Hide } from "../styles";
+import { Link } from "react-router-dom";
+//framer motion
+import { motion } from "framer-motion";
+import { fade, titleAnimation, photoAnim } from "../animation";
+import Wave from "./Wave";
 
 const AboutSection = () => {
     //do stuff
 
     //return
     return (
-        <div className="About">
-            <div className="description">
-                <div className="title">
-                    <div className="hide">
-                        <h2>We work to make</h2>
-                    </div>
-                    <div className="hide">
-                        <h2>
+        <About className="About">
+            <Description className="description">
+                <motion.div className="title">
+                    <Hide className="hide">
+                        <motion.h2 variants={titleAnimation}>
+                            We work to make
+                        </motion.h2>
+                    </Hide>
+                    <Hide className="hide">
+                        <motion.h2 variants={titleAnimation}>
                             your <span>dreams</span> come
-                        </h2>
-                    </div>
-                    <div className="hide">
-                        <h2>true.</h2>
-                    </div>
-                </div>
-                <p>
+                        </motion.h2>
+                    </Hide>
+                    <Hide className="hide">
+                        <motion.h2 variants={titleAnimation}>true.</motion.h2>
+                    </Hide>
+                </motion.div>
+                <motion.p variants={fade}>
                     Contact us for any photography or videography ideas that you
                     have. We have professionals with amazing skills.
-                </p>
-                <button>Contact Us</button>
-            </div>
-            <div className="image">
-                <img src={home1} alt="guy with a camera" />
-            </div>
-        </div>
+                </motion.p>
+                <motion.button variants={fade}>
+                    <Link to="/contact">Contact Us</Link>
+                </motion.button>
+            </Description>
+            <Image className="image">
+                <motion.img
+                    variants={photoAnim}
+                    src={home1}
+                    alt="guy with a camera"
+                />
+            </Image>
+            <Wave />
+        </About>
     );
 };
 
