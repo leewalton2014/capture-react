@@ -8,7 +8,7 @@ import home2 from "../img/home2.png";
 //styles
 import styled from "styled-components";
 import { About, Description, Image } from "../styles";
-import { useScroll } from "./useScroll";
+import useScroll from "./useScroll";
 import { fade } from "../animation";
 
 const ServicesSection = () => {

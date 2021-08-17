@@ -7,6 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import OurWork from "./pages/OurWork";
 import MovieDetail from "./pages/MovieDetail";
+import ScrollTop from "./components/ScrollTop";
 //router
 import { Switch, Route, useLocation } from "react-router-dom";
 //animation
@@ -19,6 +20,7 @@ function App() {
     return (
         <div className="App">
             <GlobalStyle />
+            <ScrollTop />
             <Nav />
             <AnimatePresence exitBeforeEnter>
                 <Switch location={location} key={location.pathname}>
