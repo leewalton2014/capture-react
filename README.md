@@ -1,6 +1,6 @@
 # Photography Site (Capture)
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://music-player-sigma-blond.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://capture-react.vercel.app/)
 
 React practise project.
 
