@@ -4,7 +4,7 @@
 
 React practise project.
 
-###Details
+### Details
 
 Demo app created during react course.
 
