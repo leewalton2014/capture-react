@@ -6,28 +6,16 @@ React practise project.
 
 ###Details
 
-Music sourced from **chillhop** all music used is free and streamed from the chillhop cdn.
+Demo app created during react course.
 
-App uses **`util.js`** as a hard coded API as there is no chillhop or music streaming API with all of the info needed for the custom UI elements.
-
-### Data structure
-
-```
-{
-name: "Nights At The Beach",
-cover: "https://chillhop.com/wp-content/uploads/2020/05/260a909fca701bbb7593f5f8f9cff9508cca2856-1024x1024.jpg",
-artist: "Sitting Duck, Otaam",
-audio: "https://mp3.chillhop.com/serve.php/?mp3=7947",
-color: ["#FDE2CF", "#4BB7C4"], (used for custom progress bar gradient)
-id: uuidv4(),
-active: false,
-},
-```
+App uses styled components and framer motion to enhance visual effects. Annimation details are stored in **`animation.js`** and shared by multiple componenets.
 
 ## Technologies used
 
 -   React.js
--   scss
+-   Styled componenets
+-   React router dom
+-   Framer motion
 
 ## Hosted at
 

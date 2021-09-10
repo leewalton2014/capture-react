@@ -67,7 +67,7 @@ export const slider = {
     show: {
         x: "100%",
         skew: "0deg",
-        transition: { ease: "easeOut", duration: 1 },
+        transition: { ease: "easeOut", duration: 0.7 },
     },
 };
 
@@ -91,6 +91,6 @@ export const swoop = {
     hidden: { width: "0%" },
     show: {
         width: "100%",
-        transition: { ease: "easeOut", duration: 1 },
+        transition: { ease: "easeOut", duration: 0.8 },
     },
 };

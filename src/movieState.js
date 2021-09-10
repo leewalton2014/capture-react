@@ -25,7 +25,7 @@ export const MovieState = () => {
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
                 {
-                    title: "It’s okay lmao.",
+                    title: "Photograpy is an art form.",
                     description:
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
@@ -48,7 +48,7 @@ export const MovieState = () => {
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
                 {
-                    title: "It’s okay lmao.",
+                    title: "Photograpy is an art form.",
                     description:
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
@@ -71,7 +71,7 @@ export const MovieState = () => {
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
                 {
-                    title: "It’s okay lmao.",
+                    title: "Photograpy is an art form.",
                     description:
                         "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
                 },
